@@ -1,0 +1,35 @@
+node-mz (2.7.0+~cs2.7.4-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Update standards version to 4.1.1, no changes needed.
+  * Remove constraints unnecessary since buster:
+    + node-mz: Drop versioned constraint on node-any-promise, node-object-assign
+      and node-thenify-all in Depends.
+  * Bump debhelper from old 12 to 13.
+
+  [ Vivek K J ]
+  * Team Upload
+  * Embed @types/mz
+
+  [ Yadd ]
+  * Use dh-sequence-nodejs for test & install
+  * Fix @types/mz install
+  * Declare node-types-mz
+
+ -- Yadd <yadd@debian.org>  Wed, 29 Sep 2021 15:20:29 +0200
+
+node-mz (2.7.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #877759)
+
+ -- Preyass Chandran <preyassc@hotmail.com>  Thu, 05 Oct 2017 19:14:24 +0000
